@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.Acercade">
+
+    <include
+        android:id="@+id/miActionBarmascotaFavorita"
+        layout="@layout/actionbar_mascotafavorita">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/top_pading"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@id/miActionBarmascotaFavorita">
+
+        <ImageView
+            android:id="@+id/imgDeveloper"
+            android:layout_width="@dimen/image_bio"
+            android:layout_height="@dimen/image_bio"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bullterrier"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_pading_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_bio_title"
+            android:text="@string/acerca_title">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtBioDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_pading_text"
+            android:textStyle="italic"
+            android:textSize="@dimen/text_bio"
+            android:text="@string/acerca_bio">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_MascotaDetail"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_cardview">
+
+        <ImageView
+            android:id="@+id/imgFotoDetail"
+            android:layout_width="@dimen/image_cardview_detail"
+            android:layout_height="@dimen/image_cardview_detail"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bullterrier"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/tvLikeCountCVDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/plikecountdetail"
+                android:textSize="@dimen/txt_cardview_detail">
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/btnLikecountDetail"
+                android:layout_width="@dimen/icon_cardview_detail_width"
+                android:layout_height="@dimen/icon_cardview_detail_height"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitStart"
+                android:src="@mipmap/bone_count"
+                tools:ignore="ContentDescription">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

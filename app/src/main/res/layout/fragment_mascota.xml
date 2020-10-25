@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.MascotaFragment">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_marginTop="@dimen/top_pading"
+        android:layout_marginBottom="@dimen/top_pading"
+        android:layout_width="@dimen/circular_image"
+        android:layout_height="@dimen/circular_image"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bulldog"
+        app:civ_border="true"
+        app:civ_border_color="#3f51b5"
+        app:civ_border_color_direction="top_to_bottom"
+        app:civ_border_width="@dimen/circular_border">
+    </com.mikhaellopez.circularimageview.CircularImageView>
+
+    <TextView
+        android:id="@+id/txtDetailNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pnombre"
+        android:textSize="@dimen/detail_name"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMascotaDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

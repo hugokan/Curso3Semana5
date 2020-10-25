@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_app_size">42sp</dimen>
+    <dimen name="text_login_padding">80dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="text_box_size">42sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="app_name">20sp</dimen>
+    <dimen name="app_icon">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="txt_cardview">20sp</dimen>
+    <dimen name="icon_cardview_width">5dp</dimen>
+    <dimen name="icon_cardview_height">60dp</dimen>
+    <dimen name="image_cardview">380dp</dimen>
+    <dimen name="padding_cardview">7dp</dimen>
+    <dimen name="top_pading">2dp</dimen>
+    <dimen name="top_pading_text">2dp</dimen>
+    <dimen name="text_input">12sp</dimen>
+    <dimen name="image_bio">300dp</dimen>
+    <dimen name="text_bio_title">30sp</dimen>
+    <dimen name="text_bio">20sp</dimen>
+    <dimen name="top_view">104dp</dimen>
+    <dimen name="circular_image">120dp</dimen>
+    <dimen name="circular_border">20dp</dimen>
+    <dimen name="detail_name">20sp</dimen>
+    <dimen name="detail_grid_col_width">90dp</dimen>
+    <dimen name="detail_grid_vertical_spacing">10dp</dimen>
+    <dimen name="detail_grid_horzontal_spacing">10dp</dimen>
+    <dimen name="icon_cardview_detail_width">40dp</dimen>
+    <dimen name="icon_cardview_detail_height">40dp</dimen>
+    <dimen name="image_cardview_detail">120dp</dimen>
+    <dimen name="txt_cardview_detail">20sp</dimen>
+    <dimen name="top_pading_favorita">56dp</dimen>
+</resources>
